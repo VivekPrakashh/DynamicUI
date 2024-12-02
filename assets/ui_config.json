@@ -1,0 +1,409 @@
+{
+  "widgets": [
+    {
+      "type": "padding",
+      "padding": "all",
+      "child": {
+        "type": "column",
+       
+       
+        "children": [
+        
+          {
+            "type": "text",
+            "data": "Wallpaper World",
+            "style": {
+              "fontSize": 28,
+              "color": "#333333",
+              "fontWeight": "bold"
+            },
+            "alignment": "center"
+          },
+          {
+            "type":"sizebox",
+            "height":20
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.Gr7hcjTcqf6vnQBkv0kfbgHaFj?rs=1&pid=ImgDetMain",
+            "width": 500,
+            "height": 150,
+            "alignment": "center",
+            "fit": "cover",
+            "borderRadius": "10"
+          },
+          {
+            "type":"sizebox",
+            "height":20
+          },
+          {
+            "type":"row",
+            "mainAxisAlignment":"spaceBetween",
+            "crossAxisAlignment":"spaceBetween",
+            "children":  [
+              {
+              "type": "text",
+              "data": "Explore",
+              "style": {
+                "fontSize": 20,
+                "color": "#333333",
+                "fontWeight": "bold"
+              }
+             
+            },
+            {
+              "type": "text",
+              "data": "Views All",
+              "style": {
+                "fontSize": 16,
+                "color": "#0000FF",
+                "fontWeight": "bold"
+              }
+             
+            }
+          ]
+        },
+        
+          {
+            "type":"singlechildscrollview",
+            "scrollDirection":"horizontal",
+            "child": {
+
+              "type": "row",
+              "rossAxisAlignment": "spaceBetween",
+              "mainAxisAlignment": "spaceBetween",
+              "children": [
+                {
+                  "type": "container",
+                  "color": "#FF5733",
+                  "width": 150,
+                  "height": 150,
+                  "margin":"all",
+                  "borderRadius": "15",
+                  
+                  "child":{
+                    "type": "image",
+                    "url": "https://th.bing.com/th/id/OIP.7cRYFyLoDEDh4sRtM73vvwHaDg?rs=1&pid=ImgDetMain",
+                    "width": 150,
+                    "height": 150,
+                    "alignment": "center",
+                    "fit": "cover",
+                    "borderRadius": "15"
+                  }
+                },
+
+              
+               
+                {
+                  "type": "container",
+                  "color": "#FF5733",
+                  "width": 150,
+                  "height": 150,
+                  "margin":"all",
+                  "borderRadius": "15",
+
+                  "child":{
+                    "type": "image",
+                    "url": "https://wallup.net/wp-content/uploads/2016/03/10/318375-nature-landscape-lake-mountain-forest-wildflowers-spring-pine_trees-path-Switzerland-HDR.jpg",
+                    "width": 150,
+                    "height": 150,
+                    "alignment": "center",
+                    "fit": "cover",
+                    "borderRadius": "15"
+                  }
+                },
+
+                {
+                  "type": "container",
+                  "color": "#FF5733",
+                  "width": 150,
+                  "height": 150,
+                  "margin":"all",
+                  "borderRadius": "15",
+                  
+                  "child":{
+                    "type": "image",
+                    "url": "https://th.bing.com/th/id/OIP.rl4qRp4FBUKPBvzy9zE7NwHaFj?rs=1&pid=ImgDetMain",
+                    "width": 150,
+                    "height": 150,
+                    "alignment": "center",
+                    "fit": "cover",
+                    "borderRadius": "15"
+                  }
+                },
+              
+                {
+                  "type": "container",
+                  "color": "#FF5733",
+                  "width": 150,
+                  "height": 150,
+                  "margin":"all",
+                  "borderRadius": "15",
+
+                  "child":{
+                    "type": "image",
+                    "url": "https://th.bing.com/th/id/OIP.jHvTOSF7924Ah63W7mozxQHaEo?rs=1&pid=ImgDetMain",
+                    "width": 150,
+                    "height": 150,
+                    "alignment": "center",
+                    "fit": "cover",
+                    "borderRadius": "15"
+                  }
+                }
+              ]
+            }
+          },
+         
+       {
+        "type":"row",
+        "mainAxisAlignment":"spaceBetween",
+        "crossAxisAlignment":"spaceBetween",
+        "children":  [
+          {
+          "type": "text",
+          "data": "Different Views",
+          "style": {
+            "fontSize": 20,
+            "color": "#333333",
+            "fontWeight": "bold"
+          }
+         
+        },
+        {
+          "type": "text",
+          "data": "Views All",
+          "style": {
+            "fontSize": 16,
+            "color": "#0000FF",
+            "fontWeight": "bold"
+          }
+         
+        }
+      ]
+    },
+        
+          {
+            "type":"sizebox",
+            "height":20
+          },
+
+          {
+            "type": "container",
+            "color": "#CAF0F8",
+            "width": 500,
+            "height": 80,
+            "borderRadius": "20",
+            "child":{
+              "type":"row",
+             "mainAxisAlignment":"start",
+              "children": [
+              { 
+                 "type": "image",
+                "url": "https://th.bing.com/th/id/R.dc49c4def4843c5360d8c9508b0cee73?rik=o3f2qzsMM6ybfw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f287132-nature-landscape-mountain-river-forest-grass-sunrise-snowy_peak-sky-clouds-reflection-Grand_Teton_National_Park-Wyoming-water.jpg&ehk=%2b8Clunu%2fvRSYoBGL8Iy03ExZAQk6Q8ca%2f%2fdUq7SQzxg%3d&risl=&pid=ImgRaw&r=0",
+                "width": 80,
+                "height": 80,
+                "alignment": "center",
+                "fit": "cover",
+                "borderRadius": "20"
+              },
+             {
+              "type":"padding",
+              "padding":"left",
+              "child":{
+                
+                  "type": "text",
+                  "data": "Mountain View",
+                  "style": {
+                    "fontSize": 20,
+                    "color": "#333333",
+                    "fontWeight": "bold"
+                  }
+                 
+                }
+             }
+            
+             
+           
+              ]
+            
+            }
+          },
+
+          {
+            "type": "container",
+            "color": "#CAF0F8",
+            "width": 500,
+            "height": 80,
+            "borderRadius": "20",
+            "child":{
+              "type":"row",
+             "mainAxisAlignment":"start",
+              "children": [
+              { 
+                 "type": "image",
+                "url": "https://th.bing.com/th/id/OIP.pUCLOhrVZfmo6X3OrJWASgHaE8?w=274&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                "width": 80,
+                "height": 80,
+                "alignment": "center",
+                "fit": "cover",
+                "borderRadius": "20"
+              },
+             {
+              "type":"padding",
+              "padding":"left",
+              "child":{
+                
+                  "type": "text",
+                  "data": "Sunset View",
+                  "style": {
+                    "fontSize": 20,
+                    "color": "#333333",
+                    "fontWeight": "bold"
+                  }
+                 
+                }
+             }
+            
+             
+           
+              ]
+            
+            }
+          },
+
+          {
+            "type": "container",
+            "color": "#CAF0F8",
+            "width": 500,
+            "height": 80,
+            "borderRadius": "20",
+            "child":{
+              "type":"row",
+             "mainAxisAlignment":"start",
+              "children": [
+              { 
+                 "type": "image",
+                "url": "https://wallpapercave.com/wp/wp2722928.jpg",
+                "width": 80,
+                "height": 80,
+                "alignment": "center",
+                "fit": "cover",
+                "borderRadius": "20"
+              },
+             {
+              "type":"padding",
+              "padding":"left",
+              "child":{
+                
+                  "type": "text",
+                  "data": "Waterfall View",
+                  "style": {
+                    "fontSize": 20,
+                    "color": "#333333",
+                    "fontWeight": "bold"
+                  }
+                 
+                }
+             }
+            
+             
+           
+              ]
+            
+            }
+          },
+
+          {
+            "type": "container",
+            "color": "#CAF0F8",
+            "width": 500,
+            "height": 80,
+            "borderRadius": "20",
+          
+            "child":{
+              "type":"row",
+             "mainAxisAlignment":"start",
+              "children": [
+              { 
+                 "type": "image",
+                "url": "https://th.bing.com/th/id/OIP.rl4qRp4FBUKPBvzy9zE7NwHaFj?rs=1&pid=ImgDetMain",
+                "width": 80,
+                "height": 80,
+                "alignment": "center",
+                "fit": "cover",
+                "borderRadius": "20"
+              },
+             {
+              "type":"padding",
+              "padding":"left",
+              "child":{
+                
+                  "type": "text",
+                  "data": "Desert View",
+                  "style": {
+                    "fontSize": 20,
+                    "color": "#333333",
+                    "fontWeight": "bold"
+                  }
+                 
+                }
+             }
+            
+             
+           
+              ]
+            
+            }
+          },
+
+          {
+            "type": "container",
+            "color": "#CAF0F8",
+            "width": 500,
+            "height": 80,
+            "borderRadius": "20",
+            "child":{
+              "type":"row",
+             "mainAxisAlignment":"start",
+              "children": [
+              { 
+                 "type": "image",
+                "url": "https://th.bing.com/th/id/OIP.i-Xdb3eu9ihga0frrt1tWQHaEo?w=270&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                "width": 80,
+                "height": 80,
+                "alignment": "center",
+                "fit": "cover",
+                "borderRadius": "20"
+              },
+             {
+              "type":"padding",
+              "padding":"left",
+              "child":{
+                
+                  "type": "text",
+                  "data": "Sea View",
+                  "style": {
+                    "fontSize": 20,
+                    "color": "#333333",
+                    "fontWeight": "bold"
+                  }
+                 
+                }
+             }
+            
+             
+           
+              ]
+            
+            }
+          }
+         
+         
+         
+        ]
+      }
+    }
+  ]
+}
+
+  

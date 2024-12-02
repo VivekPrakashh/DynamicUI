@@ -1,0 +1,249 @@
+{
+    "widgets": [
+      {
+        "type": "padding",
+        "padding": "all",
+        "child": {
+          "type": "column",
+         "mainAxisAlignment":"center",
+         "crossAxisAlignment":"center",
+         
+          "children": [
+          
+          
+            {
+              "type":"sizebox",
+              "height":20
+            },
+            {
+                "type": "container",
+                "color": "#FF5733",
+                "width": 150,
+                "height": 150,
+                "margin":"all",
+                "borderRadius": "75",
+              
+                
+                "child":{
+                  "type": "image",
+                  "url": "https://i.pinimg.com/originals/83/10/ab/8310ab709f70727b92fa1a6917897c82.jpg",
+                  "width": 150,
+                  "height": 150,
+                  "alignment": "center",
+                  "fit": "cover",
+                  "borderRadius": "75"
+                }
+              },
+
+              {
+                "type":"sizebox",
+                "height":20
+              },
+              {
+                "type": "padding",
+                "padding": "all",
+                "child":{
+                    "type":"row",
+                    "mainAxisAlignment":"spaceBetween",
+                    "crossAxisAlignment":"spaceBetween",
+                    "children":  [
+                      {
+                      "type": "text",
+                      "data": "Name",
+                      "style": {
+                        "fontSize": 20,
+                        "color": "#333333",
+                        "fontWeight": "bold"
+                      }
+                     
+                    },
+                    {
+                      "type": "text",
+                      "data": "John Doe Henry",
+                      "style": {
+                        "fontSize": 20,
+                        "color": "#0000FF",
+                        "fontWeight": "bold"
+                      }
+                     
+                    }
+                  ]
+                }
+                },
+                {
+                    "type": "padding",
+                    "padding": "all",
+                    "child":{
+                        "type":"row",
+                        "mainAxisAlignment":"spaceBetween",
+                        "crossAxisAlignment":"spaceBetween",
+                        "children":  [
+                          {
+                          "type": "text",
+                          "data": "Age",
+                          "style": {
+                            "fontSize": 20,
+                            "color": "#333333",
+                            "fontWeight": "bold"
+                          }
+                         
+                        },
+                        {
+                          "type": "text",
+                          "data": "21",
+                          "style": {
+                            "fontSize": 20,
+                            "color": "#0000FF",
+                            "fontWeight": "bold"
+                          }
+                         
+                        }
+                      ]
+                    }
+                    },
+
+                {
+                    "type":"sizebox",
+                    "height":20
+                  },
+                  {
+                    "type": "padding",
+                    "padding": "all",
+                    "child":{
+                        "type":"row",
+                        "mainAxisAlignment":"spaceBetween",
+                        "crossAxisAlignment":"spaceBetween",
+                        "children":  [
+                          {
+                          "type": "text",
+                          "data": "Email",
+                          "style": {
+                            "fontSize": 20,
+                            "color": "#333333",
+                            "fontWeight": "bold"
+                          }
+                         
+                        },
+                        {
+                          "type": "text",
+                          "data": "jhondeo@gmail.com",
+                          "style": {
+                            "fontSize": 20,
+                            "color": "#0000FF",
+                            "fontWeight": "bold"
+                          }
+                         
+                        }
+                      ]
+                    }
+                    },
+
+                    {
+                        "type":"sizebox",
+                        "height":20
+                      },
+                      {
+                        "type": "padding",
+                        "padding": "all",
+                        "child":{
+                            "type":"row",
+                            "mainAxisAlignment":"spaceBetween",
+                            "crossAxisAlignment":"spaceBetween",
+                            "children":  [
+                              {
+                              "type": "text",
+                              "data": "Phone",
+                              "style": {
+                                "fontSize": 20,
+                                "color": "#333333",
+                                "fontWeight": "bold"
+                              }
+                             
+                            },
+                            {
+                              "type": "text",
+                              "data": "9087654321",
+                              "style": {
+                                "fontSize": 20,
+                                "color": "#0000FF",
+                                "fontWeight": "bold"
+                              }
+                             
+                            }
+                          ]
+                        }
+                        },
+
+                        {
+                            "type":"sizebox",
+                            "height":20
+                          },
+                          {
+                            "type": "padding",
+                            "padding": "all",
+                            "child":{
+                                "type":"row",
+                                "mainAxisAlignment":"spaceBetween",
+                                "crossAxisAlignment":"spaceBetween",
+                                "children":  [
+                                  {
+                                  "type": "text",
+                                  "data": "Address",
+                                  "style": {
+                                    "fontSize": 20,
+                                    "color": "#333333",
+                                    "fontWeight": "bold"
+                                  }
+                                 
+                                },
+                                {
+                                  "type": "text",
+                                  "data": "California",
+                                  "style": {
+                                    "fontSize": 20,
+                                    "color": "#0000FF",
+                                    "fontWeight": "bold"
+                                  }
+                                 
+                                }
+                              ]
+                            }
+                            },
+                            {
+                                "type":"sizebox",
+                                "height":160
+                              },
+
+
+
+                            {
+           
+                                "type": "button",
+                                "label": "Logout",
+                                "color": "#000000",
+                                "height": 50,
+                                "width": 360,
+                                "onPressed": "/loginUI"
+                              },
+                  
+                              {
+                                  "type":"sizebox",
+                                  "height":200
+                                },
+                  
+                                {
+                                  "type": "text",
+                                  "data": "Logout",
+                                  "style": {
+                                    "fontSize": 16,
+                                    "color": "#333333",
+                                    "fontWeight": "bold"
+                                  },
+                                  "alignment": "center"
+                                }
+              
+        ]
+    }
+}
+    ]
+}

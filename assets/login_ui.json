@@ -1,0 +1,186 @@
+{
+    "widgets": [
+      {
+        "type": "padding",
+        "padding": "all",
+        "child": {
+            
+        
+          "type": "column",
+          "mainAxisAlignment": "center",
+          "crossAxisAlignment": "center",
+          "children": [
+            {
+                "type":"sizebox",
+                "height":20
+              },
+            {
+                "type": "text",
+                "data": "Login to your Account",
+                "style": {
+                  "fontSize": 28,
+                  "color": "#333333",
+                  "fontWeight": "bold"
+                },
+                "alignment": "center"
+              },
+          
+            {
+              "type":"sizebox",
+              "height":40
+            },
+          
+           
+            {
+                "type": "container",
+                "color": "#E8F4F8",
+                "width": null,
+                "height": null,
+                "margin":"all",
+
+                "child":{
+                 "type":"textfield",
+                 "hint":"Username",
+                 "color": "#FF5733"
+                }
+              },
+
+              {
+                "type":"sizebox",
+                "height":20
+              },
+              {
+                "type": "container",
+                "color": "#E8F4F8",
+                "width": null,
+                "height": null,
+                "margin":"all",
+
+                "child":{
+                 "type":"textfield",
+                 "hint":"Password",
+                 "color": "#FF5733"
+                }
+              },
+          
+            {
+              "type":"sizebox",
+              "height":40
+            },
+           
+           
+            {
+           
+              "type": "button",
+              "label": "Login",
+              "color": "#000000",
+              "height": 50,
+              "width": 360,
+              "onPressed": "/dynamicUI"
+            },
+
+            {
+                "type":"sizebox",
+                "height":200
+              },
+
+              {
+                "type": "text",
+                "data": "Or Login with",
+                "style": {
+                  "fontSize": 16,
+                  "color": "#333333",
+                  "fontWeight": "bold"
+                },
+                "alignment": "center"
+              },
+              {
+                "type":"sizebox",
+                "height":20
+              },
+
+            {
+            "type": "row",
+              "crossAxisAlignment": "center",
+              "mainAxisAlignment": "center",
+            "children": [
+              {
+                "type": "container",
+               
+                "width": 60,
+                "height": 60,
+                "borderRadius": 40,
+                "margin":"all",
+                
+                "child":{
+                  
+                        "type": "image",
+                        "url": "https://th.bing.com/th/id/R.0fa3fe04edf6c0202970f2088edea9e7?rik=joOK76LOMJlBPw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fgoogle-logo-png-open-2000.png&ehk=0PJJlqaIxYmJ9eOIp9mYVPA4KwkGo5Zob552JPltDMw%3d&risl=&pid=ImgRaw&r=0",
+                       
+                        "alignment": "center",
+                        "width": 60,
+                        "height": 60,
+                        "borderRadius": 40,
+                        "fit": "cover"
+                    }
+                 
+                
+              },
+              {
+                "type":"sizebox",
+                "width":20
+              },
+             
+              {
+                "type": "container",
+              
+                "width": 60,
+                "height": 60,
+                "borderRadius": 40,
+                "margin":"all",
+
+                "child":{
+                  "type": "image",
+                  "url": "https://th.bing.com/th/id/OIP.55DCXbXlKDgEBoZhKxpzLAHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                  "width": 60,
+                "height": 60,
+                  "alignment": "center",
+                  "fit": "cover"
+                }
+              },
+              {
+                "type":"sizebox",
+                "width":20
+              },
+              {
+                "type": "container",
+              
+                "width": 60,
+                "height": 60,
+                "borderRadius": 40,
+                "margin":"all",
+
+                "child":{
+                  "type": "image",
+                  "url": "https://th.bing.com/th?id=OIP.wvOQEvpiAyv7s2_c_2yG-QHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
+                  "width": 60,
+                "height": 60,
+                  "alignment": "center",
+                  "fit": "cover"
+                }
+              }
+            
+            ]
+          }
+        
+        ]
+      }
+      }
+        
+          ]
+        }
+      
+    
+  
+  
+    
